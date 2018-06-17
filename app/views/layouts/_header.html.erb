@@ -1,0 +1,29 @@
+
+
+<!--navigation-->
+<div id="social">
+
+<%= link_to (image_tag "Xing2.png", :class =>"pics", :align => 'right'), @xing, target: "_blank" %>
+<%= link_to (image_tag "In.png", :class =>"pics",:align => 'right'), @linkedin, target: "_blank" %>
+<%= link_to (image_tag "IG.png", :class =>"pics",:align => 'right'), @insta, target: "_blank" %>
+<%= link_to (image_tag "Messenger.png", :class =>"pics",:align => 'right'), @fb, target: "_blank" %>
+
+</div>
+
+<h3 class="link1">
+<%= link_to "tobiasguggemos", posts_index_path %>
+</h3>
+
+<nav id="nav">
+
+<ul>
+
+<li class="header_link"><%= link_to "WELCOME", posts_index_path %></l1>
+<li class="header_link"><%= link_to "NEWS", posts_news_path %></l1>
+<li class="header_link"><%= link_to "DOWNLOADS", posts_downloads_path %></l1>
+<li class="header_link"><%= link_to "LITERATURE", posts_literature_path %></l1>
+<li class="header_link"><%= link_to "LOGIN", new_user_session_path %></l1>
+
+</ul>
+
+</nav>

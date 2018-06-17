@@ -1,0 +1,112 @@
+// Place all the styles related to the Posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1{font: 14pt arial, sans-serif;}
+h2{font: bold 12pt arial, sans-serif;}
+h3{font:10pt arial;text-align: center;margin-top:20px;margin-bottom:20px;}
+h4{font:12pt arial, sans-serif;}
+p{font: 10pt arial, sans-serif;}
+h6{font: 8pt arial; text-align: center;margin-top:20px;margin-bottom:20px;}
+h5{font: 8pt arial, sans-serif;}
+
+#social
+.pics
+{
+//padding-left: 12px;
+margin: 0px 13px 0px 0px;
+float:right;
+height: 25px;
+}
+.link1{clear:both;}
+
+
+.link1 a
+{
+text-decoration: none;
+letter-spacing:6px;
+color:grey;
+}
+
+.link2 a
+{
+text-decoration: none;
+font: bold arial black;
+}
+
+#nav
+ul li.header_link a
+{
+color: black;text-decoration: none; font: 12pt arial;
+//background-color: grey;
+padding: 11px 5px 11px 5px; margin: 0px;
+}
+
+#nav
+ul li.header_link a:hover
+{
+background-color:#d7d7d7;
+}
+
+#nav
+ul li.header_link
+{
+width:100%; display: inline; text-align: center;
+//padding: 0px 5px 0px 5px; margin: 0px;
+}
+
+#nav
+{
+background-color: #f4f4f4;
+border-top: 1px; border-bottom: 1px;
+padding-top: 5px; padding-bottom: 5px;
+text-align: center;
+}
+
+#darkgrey
+{
+background-color: #f4f4f4;
+padding: 50px 10px 20px 10px;
+text-align: center;
+}
+
+
+hr {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    border-style: solid;
+    border-width: 0.3px;
+    height: 0.5px;
+    border-color: #d7d7d7;
+    //z-index: 2;
+   }
+
+.capt
+{
+//position: relative;
+//top:-2em;
+//left:50%;
+//transform: translateX(-50%);
+//display: inline-block;
+padding: 1.5em 0.5em 0.01em 0.5em;
+background: white;
+//z-index: 1;
+}
+
+.capt a
+{
+text-decoration: none;
+font: bold 12pt arial;
+text-align:left;
+color:black;
+}
+
+ul li.pics a:hover img
+{
+transform: scale(1.3);
+}
+
+ul li.pics
+{
+display: inline; text-align: center; margin-left: 22px;margin-right: 22px;
+}
