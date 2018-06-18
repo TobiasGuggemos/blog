@@ -5,5 +5,6 @@ class PostsController < ApplicationController
     @xing="https://www.xing.com/profile/Tobias_Guggemos"
     @fb="https://www.m.me/tobias.guggemos.10"
     @superphone="http://tobiasguggemos.superphone.io/"
+  
   end
 end
