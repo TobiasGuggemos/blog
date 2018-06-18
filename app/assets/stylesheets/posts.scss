@@ -7,8 +7,15 @@ h2{font: bold 12pt arial, sans-serif;}
 h3{font:10pt arial;text-align: center;margin-top:20px;margin-bottom:20px;}
 h4{font:12pt arial, sans-serif;}
 p{font: 10pt arial, sans-serif;}
+plink{font: 10pt arial, sans-serif;}
 h6{font: 8pt arial; text-align: center;margin-top:20px;margin-bottom:20px;}
 h5{font: 8pt arial, sans-serif;}
+
+.textlink a
+{
+color: grey;
+text-decoration:none;
+}
 
 #social
 .pics
@@ -70,6 +77,18 @@ padding: 50px 10px 20px 10px;
 text-align: center;
 }
 
+#lightgrey
+{
+background-color: #e5e7e9;
+padding: 0.5px 10px 10px 0.5px;
+text-align: center;
+}
+#darkergrey
+{
+background-color: #ABB2B9;
+padding: 0.5px 10px 10px 0.5px;
+text-align: center;
+}
 
 hr {
     margin-top: 0.5em;

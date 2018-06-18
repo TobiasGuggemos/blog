@@ -4,6 +4,6 @@ class PostsController < ApplicationController
     @linkedin="https://de.linkedin.com/in/dr-tobias-guggemos-b05828137"
     @xing="https://www.xing.com/profile/Tobias_Guggemos"
     @fb="https://www.m.me/tobias.guggemos.10"
-
+    @superphone="http://tobiasguggemos.superphone.io/"
   end
 end
