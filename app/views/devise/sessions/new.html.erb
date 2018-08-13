@@ -2,13 +2,13 @@
 <h1></h1><br />
 
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
-  <div class="field">
-    <h4><%= f.label :email %></h4>
+  <div class="formall">
+    <p><%= f.label :email %></p>
     <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
   </div>
 
-  <div class="field">
-    <h4><%= f.label :password %><br /></h4>
+  <div class="formall">
+    <p><%= f.label :password %><br /></p>
     <%= f.password_field :password, autocomplete: "off" %>
   </div>
 

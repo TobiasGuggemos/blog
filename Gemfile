@@ -15,6 +15,8 @@ gem 'rspec'
 gem 'rails', '~> 5.1.4'
 
 gem 'devise', '~> 4.4', '>= 4.4.3'
+gem 'mail_form', '~> 1.7', '>= 1.7.1'
+
 
 group :production do
   gem 'pg'

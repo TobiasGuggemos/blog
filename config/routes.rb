@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users
 
+  resources :contacts, only: [:new, :create]
 
   get 'posts/index'
   get 'posts/downloads'

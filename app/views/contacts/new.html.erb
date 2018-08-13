@@ -1,0 +1,35 @@
+<h1>Contact</h1>
+<br>
+
+<%= form_for @contact do |f| %>
+ <div class="formall">
+ <p><%= f.label :name %></p>
+ <%= f.text_field :name, required: true %>
+ <br>
+
+ <p><%= f.label :email %></p>
+ <%= f.text_field :email, required: true %>
+ <br>
+</div>
+
+  <p><%= f.label :message %><br></p>
+  <%= f.text_area :message, as: :text %>
+
+<br>
+
+ <div class="hidden">
+  <%= f.label :nickname %><br>
+  <%= f.text_field :nickname, hint: 'leave blank' %>
+ </div>
+
+<br>
+
+ <div class="actions">
+  <%= f.submit 'Send message', class: "button" %>
+ </div>
+
+ <br>
+ <br>
+ <br>
+
+<% end %>
